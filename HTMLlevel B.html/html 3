@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>inline v/s block</title>
+</head>
+<body>
+ <span>  
+<a href="www.google.com"> google </a>
+<a href="www.facebok.com"> facebook</a>
+ </span>
+<a href="www.youtube.com"> youtube</a>
+
+    </body>
+</html>   

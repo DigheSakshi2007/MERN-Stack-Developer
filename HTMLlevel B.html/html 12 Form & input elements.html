@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action">
+    <label>
+    Username
+    <input type="text"placeholder ="enter username"
+     name="username">
+    </label>
+    <br>
+    <label>
+    password
+    <input type="password" >
+    </label>
+    <br>
+    <div>
+    Number
+    <input type="number">
+    <br>
+    time
+    <input type="time">
+    <br>
+    color
+    <input type="color">
+</div>
+    <button>submit</button>
+     <button type="reset">reset</button>
+     <button type="button"> hello</button>
+     <input type="button" value="click me">
+     <input type="submit" value="click me2 ">
+     
+     <form action="https://www.google.com/search">
+        <input type="text"name="q" placeholder="search in google">
+        <button>search</button>
+     </form>
+     <form action="/server">
+        <input type="checkbox" name="age" id="age"   >
+        <label for="age"> i am 18+</label>
+        <div>
+            <input type="radio" name="fruit" id="apple" value="apple">
+            <label for="apple">apple</label>
+             <input type="radio" name="fruit" id="mango" value="mango">
+            <label for="mango">mango</label>
+             <input type="radio" name="fruit" id="banana" value="banana">
+            <label for="banana">banana</label>
+        </div>
+        <div>
+            choose your profession
+        <select name="profession" id="profession">
+            <option >select your option</option>
+            <option value="stu" selected>student</option>
+            <option value="dev">developer</option>
+        </select>
+        <div>
+          <label for="vol">select your volumne level</label>
+          <input type="range" name="vol" id="vol" min="0" max="100" step="10" value="80">
+        </div>
+        </div>
+        <br>
+        <label for="feedback">please your feedback</label>
+        <textarea name="feedback" id="feedback" rows="5" column="5" placeholder="give your feedback"></textarea>
+        <button>submit</button>
+     </form>
+    
+
+</html>
